@@ -1,0 +1,10 @@
+[theme="dark"] {
+	--background: #303331;
+	--font: #ffffff;
+}
+
+[theme="light"] {
+	--background: #ffffff;
+	--font: #303331;
+}
+
