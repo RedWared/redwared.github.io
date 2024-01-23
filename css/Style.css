@@ -8,3 +8,7 @@
 	--font: #303331;
 }
 
+body {
+	background-color: var(--background);
+	color: var(--font);
+}
