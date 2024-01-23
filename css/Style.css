@@ -19,7 +19,3 @@ body {
 	background-color: var(--background);
 	color: var(--font);
 }
-
-div.panwah img {
-	src: var(--wah-logo);
-}
