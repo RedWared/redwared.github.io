@@ -1,11 +1,13 @@
 [theme="dark"] {
 	--background: #303331;
 	--font: #ffffff;
+	--wah-logo: "/panwah/img/wah-logo-text-dark.svg"
 }
 
 [theme="light"] {
 	--background: #ffffff;
 	--font: #303331;
+	--wah-logo: "/panwah/img/wah-logo-text.svg"
 }
 
 a {
@@ -16,4 +18,8 @@ a {
 body {
 	background-color: var(--background);
 	color: var(--font);
+}
+
+div.panwah img {
+	src: var(--wah-logo);
 }
